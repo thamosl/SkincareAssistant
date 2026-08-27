@@ -1,0 +1,11 @@
+pandas
+streamlit
+dotenv
+langchain_community
+langchain_text_splitters
+langchain_huggingface
+torch
+transformers
+sentence-transformers
+langchain_groq
+Chroma
