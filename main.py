@@ -72,7 +72,7 @@ def call_model(state: MessagesState):
     It takes the current state (conversation messages) and invokes the LLM.
     """
     system_prompt = (
-        "You are a helpful assistant for question-answering tasks based on Indian Railways PDF documents.\n"
+        "You are a helpful assistant for question-answering tasks based on SkinCare PDF documents.\n"
         "Use the retrieved context provided in the user's prompt to answer the question accurately and concisely.\n"
         "If the answer is not present in the retrieved context, state clearly that you don't know based on the provided documents.\n"
         "Keep the answer factual, clear, and well-structured."
