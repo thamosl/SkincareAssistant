@@ -44,7 +44,7 @@ def get_vector_store(_embed_func):
         client = chromadb.PersistentClient(path=config.CHROMA_PERSIST_DIRECTORY)
         return Chroma(
             client=client,
-            collection_name=getattr(config, "COLLECTION_NAME", "indian_railways"),
+            collection_name=getattr(config, "COLLECTION_NAME", "skincare"),
             embedding_function=_embed_func
         )
     except Exception as e:
